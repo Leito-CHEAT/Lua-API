@@ -50,6 +50,7 @@ bool misc.movement.duck_in_air
 bool misc.movement.fast_stop
 bool misc.other.no_falling_animation
 bool misc.other.server_hitboxes
+bool misc.other.watermark
 bool ragebot.enable
 bool ragebot.exploits.double_tap
 int ragebot.exploits.double_tap_key
