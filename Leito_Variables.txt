@@ -13,6 +13,7 @@ bool anti_aim.enable
 bool anti_aim.fake_duck
 int anti_aim.fake_duck_key
 int anti_aim.fake_duck_key_mode
+int anti_aim.fake_duck_type
 bool anti_aim.fakelag_enable
 int anti_aim.fakelag_ticks
 bool anti_aim.flip_jitter
@@ -364,6 +365,9 @@ bool visuals.world.full_bright
 color visuals.world.grenade_pred_hit_color
 color visuals.world.grenade_pred_line_color
 bool visuals.world.grenade_prediction
+bool visuals.world.inferno_esp
 int visuals.world.night_darkness
 bool visuals.world.night_mode
+bool visuals.world.projectiles_warning
 int visuals.world.prop_opacity
+bool visuals.world.smoke_esp
