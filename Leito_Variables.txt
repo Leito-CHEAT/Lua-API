@@ -49,6 +49,7 @@ bool misc.movement.bhop
 bool misc.movement.directional_strafer
 bool misc.movement.duck_in_air
 bool misc.movement.fast_stop
+bool misc.other.clantag
 bool misc.other.no_falling_animation
 bool misc.other.server_hitboxes
 bool misc.other.watermark
@@ -88,7 +89,10 @@ bool ragebot.weapon_config[AWP].hitboxes.multipoint_head
 bool ragebot.weapon_config[AWP].hitboxes.multipoint_legs
 bool ragebot.weapon_config[AWP].hitboxes.neck
 bool ragebot.weapon_config[AWP].hitboxes.pelvis
+float ragebot.weapon_config[AWP].hitboxes.point_scale_body
+float ragebot.weapon_config[AWP].hitboxes.point_scale_head
 bool ragebot.weapon_config[AWP].hitboxes.prefer_body_lethal
+bool ragebot.weapon_config[AWP].hitboxes.static_point_scale
 int ragebot.weapon_config[AWP].hitchance
 int ragebot.weapon_config[AWP].min_damage
 bool ragebot.weapon_config[AWP].override_general
@@ -111,7 +115,10 @@ bool ragebot.weapon_config[Auto].hitboxes.multipoint_head
 bool ragebot.weapon_config[Auto].hitboxes.multipoint_legs
 bool ragebot.weapon_config[Auto].hitboxes.neck
 bool ragebot.weapon_config[Auto].hitboxes.pelvis
+float ragebot.weapon_config[Auto].hitboxes.point_scale_body
+float ragebot.weapon_config[Auto].hitboxes.point_scale_head
 bool ragebot.weapon_config[Auto].hitboxes.prefer_body_lethal
+bool ragebot.weapon_config[Auto].hitboxes.static_point_scale
 int ragebot.weapon_config[Auto].hitchance
 int ragebot.weapon_config[Auto].min_damage
 bool ragebot.weapon_config[Auto].override_general
@@ -134,7 +141,10 @@ bool ragebot.weapon_config[Deagle/R8-Revolver].hitboxes.multipoint_head
 bool ragebot.weapon_config[Deagle/R8-Revolver].hitboxes.multipoint_legs
 bool ragebot.weapon_config[Deagle/R8-Revolver].hitboxes.neck
 bool ragebot.weapon_config[Deagle/R8-Revolver].hitboxes.pelvis
+float ragebot.weapon_config[Deagle/R8-Revolver].hitboxes.point_scale_body
+float ragebot.weapon_config[Deagle/R8-Revolver].hitboxes.point_scale_head
 bool ragebot.weapon_config[Deagle/R8-Revolver].hitboxes.prefer_body_lethal
+bool ragebot.weapon_config[Deagle/R8-Revolver].hitboxes.static_point_scale
 int ragebot.weapon_config[Deagle/R8-Revolver].hitchance
 int ragebot.weapon_config[Deagle/R8-Revolver].min_damage
 bool ragebot.weapon_config[Deagle/R8-Revolver].override_general
@@ -157,7 +167,10 @@ bool ragebot.weapon_config[General].hitboxes.multipoint_head
 bool ragebot.weapon_config[General].hitboxes.multipoint_legs
 bool ragebot.weapon_config[General].hitboxes.neck
 bool ragebot.weapon_config[General].hitboxes.pelvis
+float ragebot.weapon_config[General].hitboxes.point_scale_body
+float ragebot.weapon_config[General].hitboxes.point_scale_head
 bool ragebot.weapon_config[General].hitboxes.prefer_body_lethal
+bool ragebot.weapon_config[General].hitboxes.static_point_scale
 int ragebot.weapon_config[General].hitchance
 int ragebot.weapon_config[General].min_damage
 bool ragebot.weapon_config[General].override_general
@@ -180,7 +193,10 @@ bool ragebot.weapon_config[Heavy].hitboxes.multipoint_head
 bool ragebot.weapon_config[Heavy].hitboxes.multipoint_legs
 bool ragebot.weapon_config[Heavy].hitboxes.neck
 bool ragebot.weapon_config[Heavy].hitboxes.pelvis
+float ragebot.weapon_config[Heavy].hitboxes.point_scale_body
+float ragebot.weapon_config[Heavy].hitboxes.point_scale_head
 bool ragebot.weapon_config[Heavy].hitboxes.prefer_body_lethal
+bool ragebot.weapon_config[Heavy].hitboxes.static_point_scale
 int ragebot.weapon_config[Heavy].hitchance
 int ragebot.weapon_config[Heavy].min_damage
 bool ragebot.weapon_config[Heavy].override_general
@@ -203,7 +219,10 @@ bool ragebot.weapon_config[Pistols].hitboxes.multipoint_head
 bool ragebot.weapon_config[Pistols].hitboxes.multipoint_legs
 bool ragebot.weapon_config[Pistols].hitboxes.neck
 bool ragebot.weapon_config[Pistols].hitboxes.pelvis
+float ragebot.weapon_config[Pistols].hitboxes.point_scale_body
+float ragebot.weapon_config[Pistols].hitboxes.point_scale_head
 bool ragebot.weapon_config[Pistols].hitboxes.prefer_body_lethal
+bool ragebot.weapon_config[Pistols].hitboxes.static_point_scale
 int ragebot.weapon_config[Pistols].hitchance
 int ragebot.weapon_config[Pistols].min_damage
 bool ragebot.weapon_config[Pistols].override_general
@@ -226,7 +245,10 @@ bool ragebot.weapon_config[Rifles].hitboxes.multipoint_head
 bool ragebot.weapon_config[Rifles].hitboxes.multipoint_legs
 bool ragebot.weapon_config[Rifles].hitboxes.neck
 bool ragebot.weapon_config[Rifles].hitboxes.pelvis
+float ragebot.weapon_config[Rifles].hitboxes.point_scale_body
+float ragebot.weapon_config[Rifles].hitboxes.point_scale_head
 bool ragebot.weapon_config[Rifles].hitboxes.prefer_body_lethal
+bool ragebot.weapon_config[Rifles].hitboxes.static_point_scale
 int ragebot.weapon_config[Rifles].hitchance
 int ragebot.weapon_config[Rifles].min_damage
 bool ragebot.weapon_config[Rifles].override_general
@@ -249,7 +271,10 @@ bool ragebot.weapon_config[SMGs].hitboxes.multipoint_head
 bool ragebot.weapon_config[SMGs].hitboxes.multipoint_legs
 bool ragebot.weapon_config[SMGs].hitboxes.neck
 bool ragebot.weapon_config[SMGs].hitboxes.pelvis
+float ragebot.weapon_config[SMGs].hitboxes.point_scale_body
+float ragebot.weapon_config[SMGs].hitboxes.point_scale_head
 bool ragebot.weapon_config[SMGs].hitboxes.prefer_body_lethal
+bool ragebot.weapon_config[SMGs].hitboxes.static_point_scale
 int ragebot.weapon_config[SMGs].hitchance
 int ragebot.weapon_config[SMGs].min_damage
 bool ragebot.weapon_config[SMGs].override_general
@@ -272,7 +297,10 @@ bool ragebot.weapon_config[Scout].hitboxes.multipoint_head
 bool ragebot.weapon_config[Scout].hitboxes.multipoint_legs
 bool ragebot.weapon_config[Scout].hitboxes.neck
 bool ragebot.weapon_config[Scout].hitboxes.pelvis
+float ragebot.weapon_config[Scout].hitboxes.point_scale_body
+float ragebot.weapon_config[Scout].hitboxes.point_scale_head
 bool ragebot.weapon_config[Scout].hitboxes.prefer_body_lethal
+bool ragebot.weapon_config[Scout].hitboxes.static_point_scale
 int ragebot.weapon_config[Scout].hitchance
 int ragebot.weapon_config[Scout].min_damage
 bool ragebot.weapon_config[Scout].override_general
