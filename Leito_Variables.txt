@@ -17,6 +17,8 @@ int anti_aim.fake_duck_type
 bool anti_aim.fakelag_enable
 int anti_aim.fakelag_ticks
 bool anti_aim.flip_jitter
+int anti_aim.freestanding_key
+int anti_aim.freestanding_key_mode
 int anti_aim.invert_key
 bool anti_aim.jitter_desync_offset
 int anti_aim.left_key
@@ -366,6 +368,13 @@ color visuals.players.m_player[enemies].box_color
 int visuals.players.m_player[enemies].box_horizontal
 bool visuals.players.m_player[enemies].box_outline
 int visuals.players.m_player[enemies].box_vertical
+bool visuals.players.m_player[enemies].flag_armor
+bool visuals.players.m_player[enemies].flag_bomb
+bool visuals.players.m_player[enemies].flag_defuser
+bool visuals.players.m_player[enemies].flag_flash
+bool visuals.players.m_player[enemies].flag_money
+bool visuals.players.m_player[enemies].flag_reload
+bool visuals.players.m_player[enemies].flag_scope
 bool visuals.players.m_player[enemies].health
 color visuals.players.m_player[enemies].health_color
 bool visuals.players.m_player[enemies].name
@@ -380,6 +389,13 @@ color visuals.players.m_player[team].box_color
 int visuals.players.m_player[team].box_horizontal
 bool visuals.players.m_player[team].box_outline
 int visuals.players.m_player[team].box_vertical
+bool visuals.players.m_player[team].flag_armor
+bool visuals.players.m_player[team].flag_bomb
+bool visuals.players.m_player[team].flag_defuser
+bool visuals.players.m_player[team].flag_flash
+bool visuals.players.m_player[team].flag_money
+bool visuals.players.m_player[team].flag_reload
+bool visuals.players.m_player[team].flag_scope
 bool visuals.players.m_player[team].health
 color visuals.players.m_player[team].health_color
 bool visuals.players.m_player[team].name
